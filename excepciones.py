@@ -22,4 +22,4 @@ class ReservaInvalidaError(Exception):
 class DuracionInvalidaError(Exception):
     def __init__(self, mensaje="La duración ingresada no es válida"):
         self.mensaje = mensaje
-        super().__init__(self.mensaje)
+        super().__init__(self.mensaje) 
